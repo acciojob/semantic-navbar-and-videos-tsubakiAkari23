@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 1em 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    /* border: 1px solid red; */
+}
+
+video {
+    width: 300px;
+}
